@@ -40,8 +40,8 @@
                 </div>
                 <div>
                     <div class="propos-p">
-                        <p>Actuellement étudiant de 3ième année en BUT parcours réalisation conception validation je suis à la recherche d'un stage de 4 mois afin de valider ma dernière année</p>
-                        <img src="img/IMG_0689.jpg">
+                        <p>Etudiant de 3ème année en BUT parcours réalisation conception validation je suis à la recherche d'un stage de 4 mois afin de valider ma dernière année</p>
+                        <img src="img/IMG_0689.jpg" alt="Photo de profil">
                     </div>
                 </div>
             </div>
@@ -80,21 +80,29 @@
                     </a>
                 </div>
                 <div class="logi sk">
-                    <img src="img/vscode_icone.png">
-                    <h3>Visual studio code</h3>
+                    <a href="https://code.visualstudio.com/">
+                        <img src="img/vscode_icone.png">
+                        <h3>Visual studio code</h3>
+                    </a>
                 </div>
                 <div class="logi sk">
-                    <img src="img/an8843a4f5-android-studio-logo-android-developers-blog-android-studio-3-6.png">
-                    <h3>Android Studio</h3>
+                    <a href="https://developer.android.com/studio?hl=fr">
+                        <img src="img/an8843a4f5-android-studio-logo-android-developers-blog-android-studio-3-6.png">
+                        <h3>Android Studio</h3>
+                    </a>
+                    
                 </div>
                 <div class="logi sk">
-                    <img src="img/intellij-idea-icon-512x512.webp">
-                    <h3>Intellij Idea</h3>
+                    <a href="https://www.jetbrains.com/fr-fr/idea/">
+                        <img src="img/intellij-idea-icon-512x512.webp">
+                        <h3>Intellij Idea</h3>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
     <div id="mon-parcours" class="section">
+        <img src="img/fond-arriere-parcours.webp" class="slider-background">
         <div class="boxed">
             <h2>Mon parcours</h2>
         </div>
@@ -157,11 +165,16 @@
     <div id= "experience" class="section">
         <div class="boxed">
             <h2>Expérience</h2>
-            <small>Stage - Service de maintenance informatique - Lycée Nelson Mandela - Saint-Benoît, Ile de la réunion</small>
-            <p>Activité : installation de serveur fog project et wiki js, refonte d'une installation informatique d'une salle de classe</p>
+            <a href="https://lycee-mandela.fr/">
+                <div class="text-box">
+                    <small>Stage - Service de maintenance informatique - Lycée Nelson Mandela - Saint-Benoît, Ile de la réunion</small>
+                    <p>Activité : installation de serveur fog project et wiki js, refonte d'une installation informatique d'une salle de classe</p>
+                </div>
+            </a>
         </div>
     </div>
     <div id="mes-projets" class="section dark">
+        <img src="img/fond-d'écran-gestion-de-projet.webp" class="slider-background">
         <div class="boxed">
             <h2>Mes Projets</h2>
             <div class="text-box">
@@ -171,7 +184,9 @@
                 </p>
             </div>
             <div class="text-box">
-                <h2>Vakna</h2>
+                <a href="https://github.com/sofianghobrini/Vakna">
+                    <h2>Vakna</h2>
+                </a>
                 <small>C1 - C2 - C4 - C5</small>
                 <p>1ère SAE de 3ième année sous un sujet libre avec mon équipe de SAE nous avons décidé de développer une application
                     mobile où il y a pour objectif de motiver l'utilisateur à réaliser des tâches quotidiens afin de s'occuper des
@@ -185,8 +200,10 @@
                 <p>Projet de modialisation mathématique qui a pour principe à déterminer le parcours de ville ayant la distance la plus minime en appliquant l'algorithme génétique</p>
             </div>
             <div class="text-box">
-                <h2>Portfolio</h2>
-                <p>C'est le dernier projet actuel que j'ai effectué actuellement qui me mets en valeurs</p>
+                <a href="https://github.com/sofianghobrini/portfolio_ghobrini">
+                    <h2>Portfolio</h2>
+                </a>
+                <p>C'est le dernier projet actuel que j'ai effectué actuellement qui me mets en valeurs en m'inspirant ce que j'ai marqué dans mon CV</p>
             </div>
         </div>
     </div>
@@ -196,14 +213,17 @@
             <div class="contact-wrapper">
                 <div class="contact-form">
                     <h3>Envoyer moi un message</h3>
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST">
                         <div class="form-group">
+                            <input type="hidden" name="access_key" value="853e6d60-c65f-4382-b247-15189f54eca6">
                             <input type="text" name="name" placeholder="Votre nom">
                         </div>
                         <div class="form-group">
+                            <input type="hidden" name="access_key" value="853e6d60-c65f-4382-b247-15189f54eca6">
                             <input type="email" name="email" placeholder="Votre email">
                         </div>
                         <div class="form-group">
+                            <input type="hidden" name="access_key" value="853e6d60-c65f-4382-b247-15189f54eca6">
                             <textarea name="message" placeholder="Contenue de votre message"></textarea>
                         </div>
                         <button type="submit">Envoyer le message</button>
