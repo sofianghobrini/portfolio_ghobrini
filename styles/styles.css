@@ -18,6 +18,8 @@ body{
 
 /* Style de base pour le bouton */
 button {
+    position: relative;
+    top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -187,27 +189,64 @@ p{
 
 .propos {
     display: flex;
-    align-items: center; /* Aligne le texte et l'image verticalement */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* Centre le contenu horizontalement */
+    gap: 2rem;
+    padding: 40px 20px; /* Augmente l'aération */
 }
 
 .titre-propos {
-    width: 40%;
-    font-size: 2em; /* Ajustez selon vos besoins */
+    width: 100%;
+    font-size: 2.2em; /* Agrandit le titre */
+    font-weight: bold;
+    text-align: left;
 }
 
 .propos-p {
-    width: 60%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1rem; /* Espace entre l'image et le texte */
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px; /* Évite que le texte soit trop large */
+}
+
+.propos-p p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    flex: 1; /* Prend tout l’espace disponible */
+    min-width: 250px;
 }
 
 .propos-p img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Rend l'image circulaire */
-    object-fit: cover; /* Recadre l'image pour qu'elle occupe tout l'espace */
+    left : 50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .propos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .propos-p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .propos-p p {
+        text-align: center;
+    }
+}
+
+
 .dark{
     background:#000;
     color: #FFF;
@@ -221,6 +260,21 @@ p{
 .gray{
     background: gray;
     color : black;
+}
+
+.grisbleu{
+    background: #BED3C3;
+    color: #000;
+}
+
+.rouge{
+    background: #A7001E;
+    color: black;
+}
+
+.marron{
+    background: #955149;
+    color: #000;
 }
 
 .sky{
@@ -443,33 +497,36 @@ p{
     padding: 50px;
 }
 
-.container_contact{
+.section_contact {
+    min-height: 100vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_contact {
     max-width: 800px;
-    margin-bottom: 40px;
+    margin: 0 auto;
     color: #333;
+    text-align: center;
 }
 
-.container_contact h2{
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #333;
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Permet d'ajuster si l'écran est plus petit */
 }
 
-.contact-wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-}
-
-.contact-form{
+.contact-form {
     text-align: left;
+    max-width: 400px;
+    width: 100%;
 }
 
-.contact-form h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
 
 input, textarea {
     width: 100%;
