@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GHOBRINI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" type="text/css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
 </head>
 <body>
@@ -26,8 +27,9 @@
         <img src="img/font-arriere.png" class="slider-background">
         <div class = "slider-content">
             <h1>GHOBRINI Sofian</h1>
-            <p>Mon petit portfolio ;)</p>
-            <button> <i class="fas fa-download"></i> <a href="telecharger/CV_2025-01-07_Sofian_Ghobrini.pdf">Mon CV</a></button>
+            <p>Etudiant en réalisation d'application, validation et conception</p>
+            <button> <i class="fas fa-download"></i> <a href="telecharger/CV_2025-01-07_Sofian_Ghobrini.pdf" download="cv_GHOBRINI_Sofian.pdf">Mon CV</a></button>
+            <button onclick="window.open('https://github.com/sofianghobrini')"><i class="fas devicon-github-original"></i><a>Mon Git</a></button>
         </div>
     </div>
     <div id="a-propos" class="section">
@@ -40,7 +42,9 @@
                 </div>
                 <div>
                     <div class="propos-p">
-                        <p>Etudiant de 3ème année en BUT parcours réalisation conception validation je suis à la recherche d'un stage de 4 mois afin de valider ma dernière année</p>
+                        <p>Etudiant de 3ème année en BUT parcours réalisation conception validation je suis à la recherche d'un stage de 4 mois afin de valider ma dernière année passer par deux
+                            année de BTS SNIR (système numérique informatique et réseau) 
+                        </p>
                         <img src="img/IMG_0689.jpg" alt="Photo de profil">
                     </div>
                 </div>
@@ -83,31 +87,47 @@
                     <img src="img/icons8-css-50.png">
                     <h3>CSS</h3>
                 </div>
+                <div class="prog skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                    <h3>SQL</h3>
+                </div>
             </div>
             <h2>Les environnements utilisés</h2>
             <div class="flex gap20">
                 <div class="logi sk">
-                    <a href="https://github.com/sofianghobrini/">
-                        <img src="img/github-logo-transparent-free-png.png">
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                        <h3>Git</h3>
                     </a>
                 </div>
                 <div class="logi sk">
-                    <a href="https://code.visualstudio.com/">
+                    <a>
                         <img src="img/vscode_icone.png">
                         <h3>Visual studio code</h3>
                     </a>
                 </div>
                 <div class="logi sk">
-                    <a href="https://developer.android.com/studio?hl=fr">
-                        <img src="img/an8843a4f5-android-studio-logo-android-developers-blog-android-studio-3-6.png">
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" />
                         <h3>Android Studio</h3>
-                    </a>
-                    
+                    </a>  
                 </div>
                 <div class="logi sk">
-                    <a href="https://www.jetbrains.com/fr-fr/idea/">
+                    <a>
                         <img src="img/intellij-idea-icon-512x512.webp">
                         <h3>Intellij Idea</h3>
+                    </a>
+                </div>
+                <div class="logi sk">
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" />
+                        <h3>Windows</h3>
+                    </a>
+                </div>
+                <div class="logi sk">
+                    <a>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                        <h3>Linux</h3>
                     </a>
                 </div>
             </div>
@@ -148,23 +168,23 @@
         <div class="boxed">
             <h2>Compétences</h2>
             <div class="flex gap20">
-                <div class="logi sk">
+                <div class="c1">
                     <h4>Niveau 2 : Mettre en place des services au sein d’une architecture réseau.</h4>
                     <h3>C1 - Administrer</h3>
                 </div>
-                <div class="logi sk">
+                <div class="c2">
                     <h4>Niveau 3 : Gérer et encadrer une équipe informatique.</h4>
                     <h3>C2 - Collaborer</h3>
                 </div>
-                <div class="logi sk">
+                <div class="c3">
                     <h4>Niveau 2 : Améliorer et sécuriser une base de données tout en la connectant à une application.</h4>
                     <h3>C3 - Gérer</h3>
                 </div>
-                <div class="logi sk">
+                <div class="c4">
                     <h4>Niveau 3 : Adapter les applications à différents supports (embarqué, web, mobile, IoT…).</h4>
                     <h3>C4 - Réalisation</h3>
                 </div>
-                <div class="logi sk">
+                <div class="c5">
                     <h4>Niveau 3 : Évaluer et améliorer les performances des applications.</h4>
                     <h3>C5 - Optimiser</h3>
                 </div>
@@ -175,7 +195,7 @@
     <div id= "experience" class="section green">
         <div class="boxed">
             <h2>Expérience</h2>
-            <a href="https://lycee-mandela.fr/">
+            <a onclick="window.open('https://lycee-mandela.fr/')">
                 <div class="text-box">
                     <small>Stage - Service de maintenance informatique - Lycée Nelson Mandela - Saint-Benoît, Ile de la réunion</small>
                     <p>Activité : installation de serveur fog project et wiki js, refonte d'une installation informatique d'une salle de classe</p>
@@ -193,10 +213,10 @@
                 </p>
             </div>
             <div class="text-box">
-                <a href="https://github.com/sofianghobrini/Vakna">
+                <a onclick="window.open('https://github.com/sofianghobrini/Vakna')">
                     <h2>Vakna</h2>
                 </a>
-                <small>C1 - C2 - C4 - C5</small>
+                <small>C1 Administrer - C2 Collaborer - C4 Réalisation - C5 Optimiser</small>
                 <p>1ère SAE de 3ième année sous un sujet libre avec mon équipe de SAE nous avons décidé de développer une application
                     mobile où il y a pour objectif de motiver l'utilisateur à réaliser des tâches quotidiens afin de s'occuper des
                     compagnons à la manière tamagotchi.
@@ -209,7 +229,7 @@
                 <p>Projet de modialisation mathématique qui a pour principe à déterminer le parcours de ville ayant la distance la plus minime en appliquant l'algorithme génétique</p>
             </div>
             <div class="text-box">
-                <a href="https://github.com/sofianghobrini/portfolio_ghobrini">
+                <a onclick="window.open('https://github.com/sofianghobrini/portfolio_ghobrini')">
                     <h2>Portfolio</h2>
                 </a>
                 <p>C'est le dernier projet actuel que j'ai effectué actuellement qui me mets en valeurs en m'inspirant ce que j'ai marqué dans mon CV</p>

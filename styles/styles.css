@@ -90,6 +90,12 @@ h2{
     margin-bottom: 20px;
 }
 
+h4{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
 p{
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -300,6 +306,56 @@ p{
     padding: 15px;
     box-sizing: border-box;
     text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.c1{
+    background: #322626;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.c2{
+    background: #db6b0f;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.c3{
+    background: #4cdb0f;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.c4{
+    background: #db0f0f;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.c5{
+    background: #04239e;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
     color: white;
     transition: transform 0.3s ease;
 }
